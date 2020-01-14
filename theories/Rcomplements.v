@@ -35,7 +35,7 @@ Ltac evar_last :=
     unfold tmp ; clear tmp
   end.
 
-Require Import Reals mathcomp.ssreflect.ssreflect.
+Require Import Reals RList mathcomp.ssreflect.ssreflect.
 Require Import Psatz.
 
 Module MyNat.
